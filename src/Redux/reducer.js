@@ -30,7 +30,7 @@ const reducer=(state=initialState,action)=>
         case USER_DATA:
             return{
                 
-                ...state.users,
+                ...state, 
                 users:action.payload
                 
 
